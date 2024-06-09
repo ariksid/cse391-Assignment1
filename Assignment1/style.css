@@ -1,0 +1,112 @@
+body{
+    font-family: Courier New, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/*
+section{
+    top: 30%;
+    width: 30%;
+    
+    
+    transform: translateY(20%);
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+*/
+}
+#headingone{
+    margin-bottom: 50px;
+}
+#img {
+    height: 200px;
+    width: 200px;
+}
+#img2 {
+    height: 200px;
+    width: 200px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
